@@ -6,7 +6,6 @@ class Player(CircleShape):
     def __init__(self, x, y):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
-        self.radius = PLAYER_RADIUS
 
     # in the player class
     def triangle(self):
